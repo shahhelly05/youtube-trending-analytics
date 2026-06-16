@@ -32,8 +32,9 @@ A comprehensive Big Data pipeline designed to ingest, clean, store, and analyze 
   ```bash
   export HADOOP_CLIENT_OPTS="$HADOOP_CLIENT_OPTS --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED"
 
+---
 ## 📊 Sample Analytical Query
-**SQL**
+```SQL
 
 SELECT title, channel_title, view_count, region 
 FROM youtube_trending_data 
